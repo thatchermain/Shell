@@ -43,21 +43,15 @@
     opacity: .3;
     opacity: 1;
     /* transition: .5s; */
-    animation: transition .3s;
+    animation: transition .8s;
 }
 
 @keyframes transition {
-    0%{
+
+    30%{
         transform: scale(.98);
     }
-    30%{
-        transform: scale(.92);
-    }
     80%{
-        transform: scale(1.02);
-
-    }
-    100%{
         transform: scale(1);
 
     }
@@ -96,9 +90,9 @@
     position: relative;
     top: 48%;
     left: 37.1%;
-    background-color: #FACD30;
+    background-color: #FED200;
     width: 33%;
-    height: 20%;
+    height: 19%;
     cursor: pointer;
     border: none;
     color: #494949;
@@ -108,7 +102,7 @@
     background-color: #494949;
 }
 .yellowBtn:focus .btnContent, .yellowBtn:hover .btnContent{
-    color: #FACD30;
+    color: #FED200;
 }
 .redSquare{
     position: absolute;
