@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body style="margin: 0; padding:0">
-            <div style="margin: 0; padding:0; border: none; position: relative;" >
-                <video autoplay muted width="100%">
-                    <source src="./media/baner-animacja.mp4" type="video/mp4">
-                </video>
-                <a href="https://jobs.shell.com/multilingual-roles-pl" target="_blank">
-                    <button style="width: 38%; height: 25%; margin: 0; padding:0; border: none; background: transparent; position: absolute; top: 45%; left: 35%; z-index: 10; cursor: pointer;">
-                    </button>
-                </a>
-                <a href="https://shell.avature.net/KrakowMultilingualRoles" target="_blank">
-                    <button style="width: 30%; height: 10%; margin: 0; padding:0; border: none; background: transparent; position: absolute; top: 72%; left: 35%; z-index: 10; cursor: pointer;">
+  <body style="margin: 0; padding: 0">
+    <div class="banner">
+      <video autoplay muted width="100%">
+        <!-- <video autoplay muted> -->
+        <source src="./media/baner-animacja.mp4" type="video/mp4" />
+      </video>
 
-                    </button>
-                </a>
+      <div class="hidden">
+        <h1 class="title">
+          CAREER OPPORTUNITIES <br />
+          FOR MULTILINGUALS
+        </h1>
+        <a href="http:\\onet.pl" tabindex="-1">
+          <button class="yellowBtn">
+            <div class="redSquare">
+              <div class="arrow"></div>
             </div>
-    </button>
-</body>
+            <p class="btnContent">Explore Career Opportunities</p>
+          </button>
+        </a>
+        <a href="http:\\wp.pl" class="link"> Join our Shell Talent Community</a>
+        <div class="description">
+          <p class="description_content">
+            Help bridge ideas across the <br />
+            world with your multilingual skills. <br />
+            Trive in an inclusive community <br />
+            and build a globally-connected <br />
+            career at Shell.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
 </html>
