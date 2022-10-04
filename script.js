@@ -26,7 +26,7 @@ changeClass = () => {
   // };
 };
 
-const wait = setTimeout(changeClass, 7500);
+const wait = setTimeout(changeClass, 7700);
 
 // const paragraph = document.querySelector(".description_content");
 // const text = paragraph.textContent;
