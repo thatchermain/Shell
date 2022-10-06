@@ -85,6 +85,7 @@
 
 .yellowBtn{
     display: flex;
+    -webkit-display:flex;
     position: relative;
     top: 48%;
     left: 37.1%;
@@ -93,8 +94,10 @@
     height: 19%;
     cursor: pointer;
     border: none;
+    -webkit-border: none;
     color: #494949;
     transition: .4s ;
+    -webkit-transition: .4s;
 }
 .yellowBtn:focus, .yellowBtn:hover{
     background-color: #494949;
@@ -116,12 +119,12 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
     width: 0; 
     height: 0; 
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    
-    border-left: 10px solid rgb(255, 255, 255);
+    border-top: 0.6vw solid transparent;
+    border-bottom: 0.6vw solid transparent;
+    border-left: 0.6vw solid rgb(255, 255, 255);
 
 }
 
