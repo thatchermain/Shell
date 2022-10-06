@@ -84,7 +84,7 @@
 }
 
 .yellowBtn{
-    display: flex;
+    /* display: flex; */
 
     position: relative;
     top: 48%;
