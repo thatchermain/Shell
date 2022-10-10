@@ -5,23 +5,12 @@
     url(./fonts/ShellBook.ttf) format('truetype'); 
    } 
 @font-face { 
-    font-family: ShellBold;
+    font-family: ShellHeavy;
     src: url(./fonts/ShellHeavy.ttf);
-    src: local('ShellBold'),
+    src: local('ShellHeavy'),
     url(./fonts/ShellHeavy.ttf) format('truetype'); 
    } 
-@font-face { 
-    font-family: ShellLight;
-    src: url(./fonts/ShellLight.ttf);
-    src: local('ShellBold'),
-    url(./fonts/ShellLight.ttf) format('truetype'); 
-   } 
-@font-face { 
-    font-family: ShellMedium;
-    src: url(./fonts/ShellMedium.ttf);
-    src: local('ShellBold'),
-    url(./fonts/ShellMedium.ttf) format('truetype'); 
-   } 
+
 
 .banner{
     margin: 0; 
@@ -36,13 +25,10 @@
     position: absolute;
     top: 0%;
     left: 0;
-    background: url('./media/try.jpg');
+    background: url('./media/frame.jpg');
     background-size: contain;
     width: 100%;
     height:100%;
-    /* opacity: .3; */
-    /* opacity: 1; */
-    /* transition: .5s; */
     animation: transition .4s;
 }
 
@@ -69,7 +55,6 @@
     opacity: 0;
     z-index: 10;
     display: flex;
-
 }
 
 .title{
@@ -77,15 +62,12 @@
     top: 11.5%;
     left: 37.2%;
     font-size: 3vw;
-
     line-height: 1.25;
     color: rgb(255, 255, 255);
-    font-family: 'ShellBold';
+    font-family: 'ShellHeavy';
 }
 
 .yellowBtn{
-    /* display: flex; */
-
     position: relative;
     top: 48%;
     left: 37.1%;
@@ -94,7 +76,6 @@
     height: 19%;
     cursor: pointer;
     border: none;
-
     color: #494949;
     transition: .4s ;
     -webkit-transition: .4s;
@@ -132,7 +113,7 @@ transform: translate(-50%,-50%);
     font-size: 1.8vw;
     line-height: 1.25;
     color: #494949;
-    font-family: 'ShellBold';
+    font-family: 'ShellHeavy';
     position: absolute;
     top: -1%;
     left: 15.7%;
@@ -148,19 +129,8 @@ transform: translate(-50%,-50%);
     left: 37.3%;
     text-underline-position: below;
     text-underline-offset: 5% ;
-    /* text-decoration: none; */
-    /* position: relative; */
     transition: .4s;
 }
-/* .link::after{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 5%;
-    bottom: 1%;
-    left: 0;    
-    background-color: #fff;
-} */
 
 .link:focus, .link:hover{
     color: #DD1D21;
@@ -168,10 +138,7 @@ transform: translate(-50%,-50%);
 
 .link:focus .link::after{
     background-color:#DD1D21;
-
 }
-
-
 
 .description{
     position: absolute;
@@ -185,8 +152,5 @@ transform: translate(-50%,-50%);
     font-size: 1.9vw;
     line-height: 1.20;
     color: rgb(255, 255, 255);
-    font-family: 'ShellLight';
-    font-family: 'ShellMedium';
     font-family: 'ShellBook';
-
 }
