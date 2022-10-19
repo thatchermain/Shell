@@ -6,4 +6,4 @@ changeClass = () => {
   picture.classList.remove("hidden");
 };
 
-const wait = setTimeout(changeClass, 7700);
+const wait = setTimeout(changeClass, 7650);

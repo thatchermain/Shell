@@ -10,7 +10,9 @@
     src: local('ShellHeavy'),
     url(./fonts/ShellHeavy.ttf) format('truetype'); 
    } 
-
+body{
+    min-width: 100vw;
+}
 
 .banner{
     margin: 0; 
@@ -47,7 +49,7 @@
     position: relative;
     top: 0%;
     left: 0;
-    background: url('./media/try.jpg');
+    background: url('./media/frame.jpg');
     background-size: contain;
     width: 100%;
     height:100%;
