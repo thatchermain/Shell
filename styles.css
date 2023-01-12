@@ -11,7 +11,6 @@
 body {
   min-width: 100vw;
 }
-
 .banner {
   margin: 0;
   padding: 0;
@@ -19,8 +18,6 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-
-  /* z-index: 10; */
 }
 .overlay {
   position: absolute;
@@ -31,7 +28,6 @@ body {
   width: 100%;
   height: 98%;
   animation: transition 1s;
-  /* opacity: 0.3; */
 }
 
 @keyframes transition {
@@ -58,7 +54,7 @@ body {
 }
 
 .hidden_bg {
-  background-color: #0095a9;
+  background-color: #0096a9;
   width: 100%;
   height: 100%;
 }
@@ -77,6 +73,7 @@ body {
   top: 48%;
   left: 37.1%;
   background-color: #fed200;
+  /* background-color: #ffd501; */
   width: 33%;
   height: 19%;
   cursor: pointer;
@@ -92,6 +89,7 @@ body {
 .yellowBtn:focus .btnContent,
 .yellowBtn:hover .btnContent {
   color: #fed200;
+  /* color: #ffd501; */
 }
 .redSquare {
   position: absolute;
@@ -141,10 +139,12 @@ body {
 .link:focus,
 .link:hover {
   color: #dd1d21;
+  /* color: #ffd501; */
 }
 
 .link:focus .link::after {
   background-color: #dd1d21;
+  /* background-color: #ffd501; */
 }
 
 .description {
@@ -167,7 +167,7 @@ body {
   opacity: 0;
 }
 .video-bg {
-  background-color: #0095a9;
+  background-color: #0096a9;
   animation: fade 1s forwards;
   transform: translateY(-2%);
 }
